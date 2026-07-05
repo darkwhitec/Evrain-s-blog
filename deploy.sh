@@ -9,6 +9,6 @@ export PATH="$CWRSYNCHOME/bin:$PATH"
 RSYNC="$CWRSYNCHOME/bin/rsync.exe"
 SSH="$CWRSYNCHOME/bin/ssh.exe"
 
-exec "$RSYNC" -avz --delete --exclude='.user.ini' \
+exec "$RSYNC" -avz --delete --exclude=.user.ini \
   -e "$SSH -o StrictHostKeyChecking=accept-new" \
   ./dist/ myserver:/www/wwwroot/panel_ssl_site
