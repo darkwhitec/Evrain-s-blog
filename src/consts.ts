@@ -2,8 +2,8 @@ export const SITE_TITLE = 'Evrain\'s Blog';
 export const SITE_DESCRIPTION = '不太正经的个人博客';
 export const SITE_AUTHOR = 'Evrain';
 export const SITE_URL = 'https://ev-rain.top';
-export const SITE_AVATAR = 'https://ev-rain.top/_vercel/image?url=_astro%2Favatar.BpCip-1B.png&w=1200&q=100';
-export const SITE_COVER = 'https://ev-rain.top/_vercel/image?url=_astro%2Fcf2227.wczNDBh1.webp&w=1920&q=100';
+export const SITE_AVATAR = 'https://avatars.githubusercontent.com/u/180248154?s=400&u=22771ce2722dcd2e2eafa849060f311adaa14965&v=4';
+export const SITE_COVER = 'https://santisfy.top/_vercel/image?url=_astro%2Fcf2227.wczNDBh1.webp&w=1920&q=100';
 
 export const PAGE_SIZE = 10;
 
