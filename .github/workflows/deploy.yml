@@ -41,7 +41,4 @@ jobs:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
-          script_stop: true
-          script: |
-            chown -R www:www /www/wwwroot/panel_ssl_site/* 2>/dev/null || true
-            chmod -R 755 /www/wwwroot/panel_ssl_site/* 2>/dev/null || true
+          script: chown -R www:www /www/wwwroot/panel_ssl_site/* 2>/dev/null || true
