@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "A blog theme built with Astro and Tailwind CSS",
   "type": "module",
- "scripts": {
-  "dev": "astro dev",
-  "build": "astro build",
-  "preview": "astro preview",
-  "deploy": "npm run build && \"C:\\Program Files\\Git\\bin\\bash.exe\" deploy.sh"
-},
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "npm run build && \"C:\\Program Files\\Git\\bin\\bash.exe\" deploy.sh"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -26,7 +26,9 @@
     "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.9",
     "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^26.1.0",
     "katex": "^0.17.0",
     "typescript": "^5.5.0"
   },
