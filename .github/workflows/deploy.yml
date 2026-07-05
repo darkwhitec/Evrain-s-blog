@@ -41,4 +41,4 @@ jobs:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
-          script: chown -R www:www /www/wwwroot/panel_ssl_site/* 2>/dev/null || true
+          script: find /www/wwwroot/panel_ssl_site -not -name ".user.ini" -exec chown www:www {} + 2>/dev/null || true
